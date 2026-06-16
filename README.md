@@ -1,3 +1,11 @@
+## Live Demo
+
+The project is also available online through GitHub Pages:
+
+**Website:** https://qdept123.github.io/Alchemy-calculator-for-Apothecary---An-Alchemy-Overhaul/
+
+You can use the calculator directly in your browser without downloading or installing anything.
+
 # Apothecary Alchemy Calculator
 
 A web-based calculator designed for **Apothecary - An Alchemy Overhaul**, helping players discover ingredient combinations, potion effects, and optimize their alchemy crafting experience in modded Skyrim.
@@ -68,10 +76,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Live Demo
-
-The project is also available online through GitHub Pages:
-
-**Website:** https://yourusername.github.io/apothecary-alchemy-calculator/
-
-You can use the calculator directly in your browser without downloading or installing anything.
