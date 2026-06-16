@@ -1,36 +1,77 @@
-# Skyrim Alchemy Lab
+# Apothecary Alchemy Calculator
 
-A web-based simulator for crafting potions and poisons based on the alchemy mechanics of *The Elder Scrolls V: Skyrim*. This tool allows users to select ingredients, view matching effects, and calculate potion values and magnitudes based on player skill levels.
+A web-based calculator designed for **Apothecary - An Alchemy Overhaul**, helping players discover ingredient combinations, potion effects, and optimize their alchemy crafting experience in modded Skyrim.
 
-## 🚀 Features
+## Features
 
-* **Interactive Brewing Table**: Select up to 3 ingredients to discover potential recipes.
-* **Real-time Calculations**: Magnitude and Septim value of potions scale dynamically based on your Alchemy Level and Perk ranks.
-* **Dynamic UI**: The interface switches themes between "Parchment" (Potions) and "Dark/Red" (Poisons) based on the result.
-* **Searchable Database**: Quickly find ingredients from a comprehensive list.
-* **Rank Progression**: Visual indicators show your current alchemy rank from Novice to Master.
+* Search all Apothecary ingredients and their effects.
+* Find valid ingredient combinations for specific potion effects.
+* Discover all possible potions that can be created from selected ingredients.
+* Fast and intuitive interface for planning alchemy recipes.
+* Supports Apothecary's rebalanced ingredient and effect system.
+* Helps maximize efficiency when gathering ingredients and crafting potions.
 
-## 🛠️ Installation & Usage
+## Technologies Used
 
-1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/qdept123/skyrim-alchemy-lab.git](https://github.com/qdept123/skyrim-alchemy-lab.git)
-    ```
-2.  Open `index.html` in any modern web browser.
-    * *Note: Because this project fetches data from `data.json`, you may need to run it through a local server (like VS Code's Live Server) to avoid CORS issues.*
+* JavaScript
+* HTML5
+* CSS3
 
-## 📂 Project Structure
+## How It Works
 
-* `index.html`: The core structure of the alchemy interface.
-* `index.css`: Custom Skyrim-inspired styling and themes.
-* `index.js`: Logic for ingredient matching, magnitude scaling, and UI updates.
-* `data.json`: A database containing ingredient names, IDs, weights, values, and effects.
+1. Select one or more Apothecary ingredients.
+2. The calculator analyzes shared effects between ingredients.
+3. Valid potion recipes and their effects are displayed.
+4. Experiment with different ingredient combinations to discover new recipes.
 
-## 👤 Author
+## Installation
 
-**qdept123**
-* GitHub: [@qdept123](https://github.com/qdept123)
+1. Clone the repository:
 
-## 📜 License
+```bash
+git clone https://github.com/yourusername/apothecary-alchemy-calculator.git
+```
 
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+2. Navigate to the project directory:
+
+```bash
+cd apothecary-alchemy-calculator
+```
+
+3. Open `index.html` in your browser or run a local web server.
+
+## Disclaimer
+
+This project is a fan-made utility and is not affiliated with Bethesda Game Studios or the creators of Apothecary - An Alchemy Overhaul.
+
+## License
+
+MIT License
+
+Copyright (c) 2024 qdept123
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Live Demo
+
+The project is also available online through GitHub Pages:
+
+**Website:** https://yourusername.github.io/apothecary-alchemy-calculator/
+
+You can use the calculator directly in your browser without downloading or installing anything.
